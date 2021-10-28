@@ -16,4 +16,4 @@ print finalPath
 
 
 
-nuke.menu('Nodes').addCommand("CG",'nuke.loadToolset("C:\Users\CSS\.nuke\ToolSets\CG_COMP.nk")')
+nuke.menu('Nodes').addCommand("CG",'nuke.loadToolset(finalPath)')
